@@ -43,6 +43,11 @@ body {
   font-family: var(--default-font);
   font-size: 16px;
   font-weight: 800;
+  transition: all 300ms ease-in-out;
+}
+.learning:hover {
+  background: #000;
+  color: var(--default-color);
 }
 .publish {
   font-family: var(--default-font);
@@ -54,6 +59,10 @@ body {
   font-size: 20px;
   font-weight: 800;
   display: inline;
+  transition: all 200ms ease-in-out;
+}
+.header:hover {
+  color: var(--default-color);
 }
 .language {
   font-family: var(--default-font);
@@ -70,9 +79,15 @@ body {
   font-size: 11px;
   text-align: center;
   color: var(--primary-color);
+  font-family: var(--default-font);
+  margin-top: 30px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+.attribution a:hover {
+  color: var(--default-color);
+  text-decoration: none;
 }
 @media (max-width: 375px) {
   .container {
