@@ -83,10 +83,9 @@ body {
   .container {
     width: 90%;
     height: auto;
-    padding: 90px;
   }
   .image img {
-    width: 600px;
+    width: 400px;
   }
   .header {
     font-size: 20px;
