@@ -19,7 +19,7 @@ body {
   padding-bottom: 6px;
   border-bottom: 10px solid #000;
   border-right: 10px solid #000;
-  width: 70%;
+  width: 40%;
   background: #fff;
   padding: 25px;
   height: auto;
@@ -73,8 +73,9 @@ h1 {
 }
 @media (max-width: 375px) {
   .container {
-    width: 300px;
-    margin: 10%;
+    width: 50%;
+    margin: 10% auto;
+    padding: 15px;
   }
   .image img {
     width: 200px;
