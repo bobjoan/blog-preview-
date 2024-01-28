@@ -21,7 +21,7 @@ body {
   border-right: 10px solid #000;
   width: 40%;
   background: #fff;
-  padding: 25px;
+  padding: 20px;
   height: auto;
   margin: 10% auto;
 }
@@ -52,7 +52,7 @@ body {
   font-size: 16px;
   font-weight: 600;
 }
-h1 {
+.header {
   font-family: var(--default-font);
   font-size: 20px;
   font-weight: 800;
@@ -83,11 +83,12 @@ h1 {
   .container {
     width: 90%;
     height: auto;
+    padding: 40px;
   }
   .image img {
-    width: 100px;
+    width: 200px;
   }
-  h1 {
+  .header {
     font-size: 20px;
   }
   .learning {
