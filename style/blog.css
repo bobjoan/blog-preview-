@@ -10,6 +10,8 @@ body {
   align-items: center;
   display: flex;
   justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 .container {
   border: 1px solid #000;
@@ -19,23 +21,18 @@ body {
   padding-bottom: 6px;
   border-bottom: 10px solid #000;
   border-right: 10px solid #000;
-  width: 30%;
+  max-width: 1440px;
   background: #fff;
   padding: 20px;
   height: auto;
-  margin: 10% auto;
+  margin: 0 auto;
 }
 .image img {
   max-width: 100%;
-  text-align: center;
-  margin-top: 10px;
-  border-radius: 10px;
-  width: 400px;
-  position: relative;
+  height: auto;
 }
 .blog-preview {
-  padding: 10px;
-  margin: 10px;
+  margin-top: 20px;
 }
 .learning {
   background-color: var(--default-color);
