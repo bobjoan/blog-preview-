@@ -63,6 +63,14 @@ h1 {
   font-size: 15px;
   color: var(--primary-color);
 }
+.personal {
+  display: flex;
+}
+.personal span {
+  font-family: var(--default-font);
+  font-weight: 800;
+  margin-top: 30px;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -73,12 +81,11 @@ h1 {
 }
 @media (max-width: 375px) {
   .container {
-    width: 50%;
-    margin: 10% auto;
-    padding: 15px;
+    width: 90%;
+    height: auto;
   }
   .image img {
-    width: 200px;
+    width: 100px;
   }
   h1 {
     font-size: 20px;
