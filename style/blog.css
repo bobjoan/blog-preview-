@@ -60,9 +60,7 @@ body {
   font-size: 15px;
   color: var(--primary-color);
 }
-.personal {
-  display: flex;
-}
+
 .personal span {
   font-family: var(--default-font);
   font-weight: 800;
@@ -87,7 +85,7 @@ body {
     align-items: center;
   }
   .image img {
-    width: 300px;
+    width: 350px;
     align-items: center;
   }
   .header {
